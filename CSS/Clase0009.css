@@ -1,0 +1,33 @@
+/* Vamos a ver varias etiquetas en css */
+
+#color {
+    /* color nos sirve para cambiar el color de la letra */
+    color: #EC5228;
+}
+
+.fondo {
+    /* background-color sirva para colocar un color de fondo */
+    background-color: blueviolet;
+
+    /* margin nos sirve para dejar un espacio */
+    /* margin-left nos sirve para dejar un espacio a la izquierda */
+    margin-left: 50px;
+    /* margin-right  nos sirve para dejar un espacio a la derecha */
+    margin-right: 50px;
+    /* margin-top nos sirve para dejar un espacio arriva */
+    margin-top: 100px;
+    /* margin-bottom nos sirve para dejar un espacio abajo */
+    margin-bottom: 100px;
+}
+
+.fondo2 {
+    /* background nos sirve también para colocar un color de fondo */
+    background: chartreuse;
+
+    /* con margin nos ahorramos tiempor colocando cada margin, pero este afecta cada lado, para que no afecte ponle 0px, y si todos los valores van hacer igual puedes colocar un solo valor */
+    /* este afecta primero a arriva, derecha, abajo y por ultimo a la izquierda */
+    margin: 50px 50px 100px 100px;
+
+    /* el padding nos sirve para poner una margen, es decir poner un espacio mar grande en un elemento */
+    padding: 100px;
+}

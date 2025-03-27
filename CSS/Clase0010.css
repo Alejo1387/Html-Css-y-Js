@@ -1,0 +1,16 @@
+nav {
+    background: #57B4BA;
+    padding: 20px;
+}
+.columna {
+    background: #D98324;
+    color: #443627;
+    padding: 20px;
+    /* Con width definimos el ancho */
+    width: 25%;
+    margin: 10px;
+}
+#padre {
+    /* Con este ponemos el contenido flexible o todo junto */
+    display: flex;
+}
