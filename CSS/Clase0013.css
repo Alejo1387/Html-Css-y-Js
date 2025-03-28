@@ -1,0 +1,18 @@
+/* Cuando el mouse no esta encima del boton toma estos estilos */
+button {
+    /* estilo */
+    background: #404969;
+    color: #BDE4F4;
+}
+
+/* cuando el mause esta encima del boton toma estos estilos */
+/* esto nos quiere decir que cuando el mause este encima del boton va a tomar estos estilos */
+button:hover {
+    background: #FF7F50;
+}
+
+/* cuando le demos click toma estos estilos */
+/* esto nos quiere decir que cuando le demos click al boton va a tomar estos estilos */
+button:active {
+    background: #9ACBD0;
+}
