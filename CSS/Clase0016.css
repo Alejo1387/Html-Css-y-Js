@@ -1,0 +1,80 @@
+.nav-enlace {
+    /* con esto lo tranformamos en elementos de bloque een linea */
+    display: inline-block;
+
+    /* decoracion */
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+
+    /* con esto quitamos la linea de abajo a el enlace */
+    text-decoration: none;
+}
+
+/* esto nos sive para ver como va a cambiar cuando el mouse este encima, ya sea el color u otra cosa */
+.nav-enlace:hover {
+    /* aqui cambiamos el color de fondo */
+    background: rosybrown;
+    /* aqui cambiamos el color de la letra */
+    color: black;
+}
+
+nav {
+    background: rebeccapurple;
+    padding: 10px;
+
+    /* Con esto lo ponemos todo junto */
+    display: flex;
+
+    /* Con esto posicionamos todo al centro */
+    /* justify-content: center; */
+
+    /* Con esto acemos un espacio en cada caja automatico pero en el medio, sin respetar el espacio del principio y el final */
+    /* justify-content: space-between; */
+
+    /* Con esto acemos un espacio en cada caja automatico pero en total, respetando el espacio del principio y el final */
+    justify-content: space-around;
+
+    /* Con esto posicionamos todo a mano derecha */
+    /* justify-content: flex-end; */
+
+    /* Con esto posicionamos todo a mano izquierda */
+    /* justify-content: flex-start; */
+}
+
+.nav-boton {
+    background: salmon;
+    color: white;
+    padding: 10px 0px;
+
+    /* Con esto hacemos un borde, y se pasan 3 parametros */
+    /* El 1 es el tamaño de la linea, el 2 es la forma de la linea y por ultimo el color: ; */
+    border: 2px solid white;
+
+    /* Con esto desaparecemos el boton */
+    display: none;
+}
+
+/* Con esto lo que hacemos es modificar los estilos a un tamaño minimo determinado */
+/* max-width: 600px aqui especificamos el tamaño minimos, y a dentro de las llaves escribimos lo que va a cambiar */
+/* imaginemos que hacemos otros estilos desde 0 px hasta lo especificado */
+/* Esto siempre va a el final del archivo de css */
+@media (max-width: 600px) {
+    /* aqui le vamos a dar otros estilos a el nav */
+    nav {
+        /* aqui cambiamos el fondo para ver el cambio */
+        /* esto sigue tomando los estilos anteriores, pero aqui cambiamos los estilos que queramos */
+        background: black;
+        /* Con esto cambiamos la posicion de los elementos a columna, es decir uno debajo del otro */
+        flex-direction: column;
+    }
+    /* aqui le cambiamos el tamaño de la margen */
+    .nav-enlace {
+        margin: 10px 0px;
+    }
+
+    /* Con esto aparecemos el boton pero en linea de bloque */
+    .nav-boton {
+        display: inline-block;
+    }
+}
