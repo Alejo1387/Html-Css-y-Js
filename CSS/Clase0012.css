@@ -1,0 +1,25 @@
+.nav-enlace {
+    /* con esto lo tranformamos en elementos de bloque een linea */
+    display: inline-block;
+
+    /* decoracion */
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+
+    /* con esto quitamos la linea de abajo a el enlace */
+    text-decoration: none;
+}
+
+/* esto nos sive para ver como va a cambiar cuando el mouse este encima, ya sea el color u otra cosa */
+.nav-enlace:hover {
+    /* aqui cambiamos el color de fondo */
+    background: rosybrown;
+    /* aqui cambiamos el color de la letra */
+    color: black;
+}
+
+nav {
+    background: rebeccapurple;
+    padding: 10px;
+}
